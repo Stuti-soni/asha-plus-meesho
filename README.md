@@ -62,6 +62,38 @@ Build frontend:
 -GitHub Repo: [https://github.com/Stuti-soni/asha-plus-meesho]
 - Live App:(https://ai-health-assistant-7b5af.web.app/)
 8. Contact:For questions , open an issue or contact [Stuti-soni on GitHub](https://github.com/Stuti-soni).
-  
-<img width="1379" height="180" alt="image" src="https://github.com/user-attachments/assets/69147a8a-4e69-4ab4-b984-541de32b5b65" />
+
+| Name                        | Version    | License    | Role/Usage                        | Source Link                                                                 |
+|-----------------------------|------------|------------|------------------------------------|------------------------------------------------------------------------------|
+| react                       | ^19.1.0    | MIT        | Main UI library (direct)           | https://github.com/facebook/react                                           |
+| react-dom                   | ^19.1.0    | MIT        | DOM bindings for React (direct)    | https://github.com/facebook/react                                           |
+| react-firebase-hooks        | ^5.1.1     | MIT        | React hooks for Firebase (direct)  | https://github.com/csfrequency/react-firebase-hooks                         |
+| firebase                    | ^11.10.0   | Apache-2.0 | Firebase SDK (direct)              | https://github.com/firebase/firebase-js-sdk                                 |
+| agora-rtc-sdk-ng            | ^4.23.4    | MIT        | Video call/RTC (direct)            | https://github.com/AgoraIO/AgoraRTC_NG                                      |
+| html2canvas                 | ^1.4.1     | MIT        | HTML to canvas (direct)            | https://github.com/niklasvh/html2canvas                                     |
+| pdfmake                     | ^0.2.20    | MIT        | PDF generation (direct)            | https://github.com/bpampuch/pdfmake                                         |
+| vite                        | ^7.0.4     | MIT        | Frontend build tool (direct)       | https://github.com/vitejs/vite                                              |
+| @vitejs/plugin-react        | ^4.6.0     | MIT        | Vite React plugin (direct)         | https://github.com/vitejs/vite-plugin-react                                 |
+| eslint                      | ^9.30.1    | MIT        | Linting (direct)                   | https://github.com/eslint/eslint                                            |
+| @eslint/js                  | ^9.30.1    | MIT        | ESLint config (direct)             | https://github.com/eslint/eslint                                            |
+| eslint-plugin-react-hooks   | ^5.2.0     | MIT        | React hooks linting (direct)       | https://github.com/facebook/react                                           |
+| eslint-plugin-react-refresh | ^0.4.20    | MIT        | React Fast Refresh linting         | https://github.com/vitejs/vite-plugin-react                                 |
+| @types/react                | ^19.1.8    | MIT        | TypeScript types (direct)          | https://github.com/DefinitelyTyped/DefinitelyTyped                          |
+| @types/react-dom            | ^19.1.6    | MIT        | TypeScript types (direct)          | https://github.com/DefinitelyTyped/DefinitelyTyped                          |
+| globals                     | ^16.3.0    | MIT        | ESLint globals (direct)            | https://github.com/sindresorhus/globals                                     |
+| firebase-admin              | ^12.6.0   | Apache-2.0 | Firebase Admin SDK (direct)        | https://github.com/firebase/firebase-admin-node                              |
+| firebase-functions          | ^6.0.1    | Apache-2.0 | Firebase Cloud Functions SDK       | https://github.com/firebase/firebase-functions                               |
+| @google-cloud/text-to-speech    | ^6.2.0    | Apache-2.0 | Google Cloud TTS API client        | https://github.com/googleapis/nodejs-text-to-speech                          |
+| axios                           | ^1.10.0   | MIT        | HTTP client (direct)               | https://github.com/axios/axios                                               |
+| firebase-functions-test         | ^3.1.0    | Apache-2.0 | Firebase Functions testing (dev)   | https://github.com/firebase/firebase-functions-test                          |
+| @google-cloud/text-to-speech      | ^6.2.0      | Apache-2.0   | Google Cloud Text-to-Speech API client for Node.js      | npm                    |
+| axios                             | ^1.10.0     | MIT          | Promise-based HTTP client for API calls                 | npm                    |
+| firebase-admin                    | ^12.6.0     | Apache-2.0   | Firebase Admin SDK for backend (Firestore, Auth)        | npm                    |
+| firebase-functions                | ^6.0.1      | Apache-2.0   | Firebase Cloud Functions SDK                            | npm                    |
+| firebase/app, firestore, auth     | (frontend)  | Apache-2.0   | Firebase JS SDK for frontend (Firestore, Auth)          | npm                    |
+| Hugging Face Inference API        | N/A (API)   | Varies (API) | OCR: Text extraction from images                        | Hugging Face API       |
+| Google Gemini API                 | N/A (API)   | Google Terms | Generative AI for health advice, analysis, etc.         | Gemini API             |
+| Google Translate (unofficial)     | N/A (API)   | Google Terms | Hindi translation (frontend)                            | Google Translate API   |
+| Jitsi Meet (iframe API)           | N/A (API)   | Apache-2.0   | Video consultations (frontend)                          | Jitsi Meet             |
+
 
