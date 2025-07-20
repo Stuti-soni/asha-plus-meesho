@@ -62,3 +62,6 @@ Build frontend:
 -GitHub Repo: [https://github.com/Stuti-soni/asha-plus-meesho]
 - Live App:(https://ai-health-assistant-7b5af.web.app/)
 8. Contact:For questions , open an issue or contact [Stuti-soni on GitHub](https://github.com/Stuti-soni).
+  
+<img width="1379" height="180" alt="image" src="https://github.com/user-attachments/assets/69147a8a-4e69-4ab4-b984-541de32b5b65" />
+
