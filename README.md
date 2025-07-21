@@ -4,23 +4,34 @@ The system leverages Generative AI, OCR, and speech technologies to minimize man
 ________________________________________
 Key AI Features:
 🔹 1. Conversational AI Health Assistant
+
 •	Users ask health-related queries via text or voice (in Hindi).
 •	Uses the Google Gemini API to generate natural, context-aware responses.
 •	Outputs answers as text and voice (Text-to-Speech in Hindi).
+
 🔹 2. AI-Based Patient Data Extraction
+
 •	Converts unstructured spoken/written Hindi input into structured JSON data: name, age, gender, symptoms, etc.
 •	Enables form-free patient onboarding with near-zero typing.
+
 🔹 3. Medical Document Analysis
+
 •	Upload prescriptions, test reports, or medical labels.
 •	Uses cloud vision API + AI summarization to extract and explain content in Hindi, including medicines, dosage, and lab results.
+
 🔹 4. AI Auto-Fill for Government Health Form
+
 •	AI predicts and fills fields in government forms like MCH and ICDS.
 •	The voice log feature in your project allows users (such as healthcare workers) to enter, review, and manage patient information using voice input, primarily in Hindi. 
 •	Uses partial patient data to infer missing fields with contextual accuracy.
+
 🔹 5. AI Analytics for ASHA Worker Reports
+
 •	Aggregated data collected by ASHA workers is analyzed.
 •	AI generates trends, insights, and recommendations in Hindi for policy support.
+
 - Secure & Scalable: Secrets are managed via environment variables and never committed to the repo.
+- 
 Impact & Business Potential
 •	Empowers ASHA Workers: Automates data entry, document interpretation, and scheme selection — saving time and reducing errors.
 •	Bridges Language Barriers: Supports native Hindi input/output (voice + text), helping non-tech-savvy users access critical health info.
@@ -30,6 +41,7 @@ o	Govt. Integration: Can integrate with National Health Mission, Ayushman Bharat
 o	NGOs & Rural Health Startups: Licensing model or open-source with support services.
 o	Data Insights as a Service: Health analytics dashboard for district health officers.
 - Secure & Scalable: Secrets are managed via environment variables and never committed to the repo.---
+
 Prerequisites
 -Node.js (v18+ recommended)
 - npm (v9+ recommended)
