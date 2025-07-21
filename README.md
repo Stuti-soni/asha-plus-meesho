@@ -30,16 +30,16 @@ Key AI Features:
 •	Aggregated data collected by ASHA workers is analyzed.
 •	AI generates trends, insights, and recommendations in Hindi for policy support.
 
-- Secure & Scalable: Secrets are managed via environment variables and never committed to the repo.
-- 
 Impact & Business Potential
 •	Empowers ASHA Workers: Automates data entry, document interpretation, and scheme selection — saving time and reducing errors.
 •	Bridges Language Barriers: Supports native Hindi input/output (voice + text), helping non-tech-savvy users access critical health info.
 •	Scalable: Deployable via Firebase, usable across India with minor local language tweaks.
 •	Business Model Possibility:
+
 o	Govt. Integration: Can integrate with National Health Mission, Ayushman Bharat, or eSanjeevani platforms.
 o	NGOs & Rural Health Startups: Licensing model or open-source with support services.
 o	Data Insights as a Service: Health analytics dashboard for district health officers.
+
 - Secure & Scalable: Secrets are managed via environment variables and never committed to the repo.---
 
 Prerequisites
@@ -49,6 +49,7 @@ Prerequisites
 - Google Cloud Service Account JSON (for TTS, in `functions/`)
 - Gemini API Key (for AI)
 - Firebase Project (for hosting and functions)
+  
 1. Clone the Repository
 git clone https://github.com/Stuti-soni/asha-plus-meesho.git
 cd asha-plus-meesho
