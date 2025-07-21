@@ -17,7 +17,7 @@ Key AI Features:
 🔹 3. Medical Document Analysis
 
 •	Upload prescriptions, test reports, or medical labels.
-•	Uses cloud vision API + AI summarization to extract and explain content in Hindi, including medicines, dosage, and lab results.
+•	Uses hugging face API+ AI summarization to extract and explain content in Hindi, including medicines, dosage, and lab results.
 
 🔹 4. AI Auto-Fill for Government Health Form
 
