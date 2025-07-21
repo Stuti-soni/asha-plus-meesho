@@ -1,12 +1,34 @@
-Here’s a detailed README for our project, including setup, environment variables, and how to run both the frontend and backend locally.
-ASHA+ Meesho Health Assistant
-A full-stack AI-powered health assistant for ASHA workers and rural communities, built with React (Vite), Firebase Functions, and Google Gemini AI.  
-Provides health Q&A, document analysis, government scheme suggestions, and Hindi text-to-speech.
-Features
--AI Health Assistant: Ask health or general questions in Hindi and get instant answers (text + voice).
--Medical Document Analysis: Upload prescriptions, lab reports, or medicine labels for instant analysis.
-- Government Scheme Suggestions: Get personalized government scheme recommendations.
-- Form Auto-fill: Automatically fill out health forms using AI.
+Project Description:
+ASHA+ is a full-stack AI-powered web application built to assist ASHA workers and rural communities in accessing healthcare services efficiently. Designed with a user-first approach, the app provides conversational health assistance, intelligent document analysis, form auto-fill, and government scheme recommendations — all tailored for Hindi-speaking users.
+The system leverages Generative AI, OCR, and speech technologies to minimize manual effort and bridge the digital healthcare divide in underserved regions.
+________________________________________
+Key AI Features:
+🔹 1. Conversational AI Health Assistant
+•	Users ask health-related queries via text or voice (in Hindi).
+•	Uses the Google Gemini API to generate natural, context-aware responses.
+•	Outputs answers as text and voice (Text-to-Speech in Hindi).
+🔹 2. AI-Based Patient Data Extraction
+•	Converts unstructured spoken/written Hindi input into structured JSON data: name, age, gender, symptoms, etc.
+•	Enables form-free patient onboarding with near-zero typing.
+🔹 3. Medical Document Analysis
+•	Upload prescriptions, test reports, or medical labels.
+•	Uses cloud vision API + AI summarization to extract and explain content in Hindi, including medicines, dosage, and lab results.
+🔹 4. AI Auto-Fill for Government Health Form
+•	AI predicts and fills fields in government forms like MCH and ICDS.
+•	The voice log feature in your project allows users (such as healthcare workers) to enter, review, and manage patient information using voice input, primarily in Hindi. 
+•	Uses partial patient data to infer missing fields with contextual accuracy.
+🔹 5. AI Analytics for ASHA Worker Reports
+•	Aggregated data collected by ASHA workers is analyzed.
+•	AI generates trends, insights, and recommendations in Hindi for policy support.
+- Secure & Scalable: Secrets are managed via environment variables and never committed to the repo.
+Impact & Business Potential
+•	Empowers ASHA Workers: Automates data entry, document interpretation, and scheme selection — saving time and reducing errors.
+•	Bridges Language Barriers: Supports native Hindi input/output (voice + text), helping non-tech-savvy users access critical health info.
+•	Scalable: Deployable via Firebase, usable across India with minor local language tweaks.
+•	Business Model Possibility:
+o	Govt. Integration: Can integrate with National Health Mission, Ayushman Bharat, or eSanjeevani platforms.
+o	NGOs & Rural Health Startups: Licensing model or open-source with support services.
+o	Data Insights as a Service: Health analytics dashboard for district health officers.
 - Secure & Scalable: Secrets are managed via environment variables and never committed to the repo.---
 Prerequisites
 -Node.js (v18+ recommended)
@@ -61,7 +83,13 @@ Build frontend:
 7. Project Links
 -GitHub Repo: [https://github.com/Stuti-soni/asha-plus-meesho]
 - Live App:(https://ai-health-assistant-7b5af.web.app/)
-8. Contact:For questions , open an issue or contact [Stuti-soni on GitHub](https://github.com/Stuti-soni).
+8. Project Links:
+-GitHub Repo: [https://github.com/Stuti-soni/asha-plus-meesho]
+- Live App:(https://ai-health-assistant-7b5af.web.app/)
+9. Contact: For questions , open an issue or contact [Stuti-soni on GitHub] (https://github.com/Stuti-soni).
+We have added our zip file in the presentation which have all the secured files and secret keys.
+ZIP FILE :  https://drive.google.com/file/d/1YGSP00C3KbO-UDlN_yw7yICugKEzCNov/view?usp=sharing
+LIVE DEMO VIDEO : https://drive.google.com/file/d/1AALJxmk7CV8makIGILnq1O2MqSUBw0ht/view?usp=sharing
 
 | Name                        | Version    | License    | Role/Usage                        | Source Link                                                                 |
 |-----------------------------|------------|------------|------------------------------------|------------------------------------------------------------------------------|
